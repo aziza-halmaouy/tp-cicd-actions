@@ -1,0 +1,26 @@
+{
+  "name": "tp-cicd-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziza-halmaouy/tp-cicd-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aziza-halmaouy/tp-cicd-actions/issues"
+  },
+  "homepage": "https://github.com/aziza-halmaouy/tp-cicd-actions#readme",
+  "devDependencies": {
+    "eslint": "^10.2.1",
+    "jest": "^30.3.0"
+  }
+}
