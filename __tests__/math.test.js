@@ -1,4 +1,4 @@
-const { add, multiply, factorial } = require('../src/math');
+const { add, multiply, factorial, subtract } = require('../src/math');
 
 describe('add', () => {
   test('additionne deux nombres positifs', () => {
@@ -31,5 +31,11 @@ describe('factorial', () => {
 
   test('erreur si nombre négatif', () => {
     expect(() => factorial(-1)).toThrow('Nombre négatif');
+  });
+});
+
+describe('subtract', () => {
+  test('soustraction simple', () => {
+    expect(subtract(5, 2)).toBe(3);
   });
 });
